@@ -1,0 +1,117 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+	background-color: #ffcd50;
+	padding-top: 10px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.nav a {
+	color: #5a5a5a;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.nav li {
+ 	display: inline;
+}
+
+.banner {
+	background-image:url('https://scontent-lax.xx.fbcdn.net/hphotos-xpf1/t31.0-8/10497923_880493148632070_614835161021588350_o.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.banner .container {
+	position: relative;
+	top: 200px;
+}
+
+.banner h1 {
+	color: #fff;
+	font-size: 36px;  
+	font-family: 'Open Sans Light', sans-serif;
+	font-weight: bold;
+	text-shadow: 2px 3px 3px #292929;
+		-webkit-text-stroke: 1px white;
+}
+
+.banner p {
+	font-size: 20px;
+	color: #fff;
+}
+
+.about-me {
+	background-color: #ffcd50;
+/*	border-bottom: 1px solid #dbdbdb;*/
+}
+
+.about-me .container {
+	color: #393c3d;
+	font-size: 24px;
+	text-align: center;
+	padding: 0px 10px 10px 30px;
+}
+
+.about-me p {
+ 	font-size: 15px;
+	margin-bottom: 13px;
+	text-align: left;
+	padding-top: 20px;
+}
+
+.skills {
+	background-color: #ffcd50;
+	border-bottom: 1px solid #dbdbdb;
+	text-align: center;
+}
+
+.portfolio {
+	background-color: #fff;
+	border-bottom: 1px solid #dbdbdb;
+	text-align: center;
+}
+
+.portfolio h2 {
+	padding-bottom: 20px;
+}
+
+.portfolio a:link a:visited a:hover a:active {
+    text-decoration: none !important;
+}
+
+.social-media {
+	background-color: #91A3B0;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	padding: 15px 15px 10px 15px;
+
+}
+
+.social-media li {
+ 	display: inline;
+ 	padding-right: 5px;
+
+}
+
+.footer {
+	background-color: #3E6594;
+	text-align: center;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer p {
+	font-size: 18px;
+	color: #fff;
+	padding: 25px 25px 25px 25px;
+}

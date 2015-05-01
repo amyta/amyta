@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %meta{:content => "width=device-width, intial-scale=1.0, user-scalable=no", :name => "viewport"}/
+    %link{:href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css", :rel => "stylesheet"}/
+    %link{:href => "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css", :rel => "stylesheet"}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:400,700,300", :rel => "stylesheet", :type => "text/css"}
+
+    = stylesheet_link_tag "main"
+    = javascript_include_tag  "all"
+
+    %body
+      ~ yield
