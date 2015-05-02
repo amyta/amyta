@@ -1,18 +1,18 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif; font-weight: 300;
 }
 
 .nav {
-	background-color: #ffcd50;
+	background-color: #6BA368;
 	padding-top: 10px;
-	font-family: 'Fira Sans', sans-serif;
 }
 
 .nav a {
-	color: #5a5a5a;
+	color: #fff;
 	font-size: 12px;
 	font-weight: bold;
 	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
 }
 
 .nav li {
@@ -35,10 +35,10 @@ body {
 .banner h1 {
 	color: #fff;
 	font-size: 36px;  
-	font-family: 'Open Sans Light', sans-serif;
-	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	/*font-weight: bold;*/
 	text-shadow: 2px 3px 3px #292929;
-		-webkit-text-stroke: 1px white;
+		/*-webkit-text-stroke: 1px white;*/
 }
 
 .banner p {
@@ -47,12 +47,17 @@ body {
 }
 
 .about-me {
-	background-color: #ffcd50;
+	background-color: #6BA368;
 /*	border-bottom: 1px solid #dbdbdb;*/
 }
 
+.about-me h2 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
 .about-me .container {
-	color: #393c3d;
+	color: #fff;
 	font-size: 24px;
 	text-align: center;
 	padding: 0px 10px 10px 30px;
@@ -66,9 +71,11 @@ body {
 }
 
 .skills {
-	background-color: #DD7646;
+	background-color: #91A3B0;
 	border-bottom: 1px solid #dbdbdb;
 	text-align: center;
+	padding: 20px 0px 20px 0;
+	color: #fff;
 }
 
 .portfolio {
@@ -79,6 +86,8 @@ body {
 
 .portfolio h2 {
 	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
 }
 
 .portfolio a:link a:visited a:hover a:active {
