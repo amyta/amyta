@@ -9,7 +9,7 @@ body {
 
 .nav a {
 	color: #fff;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
@@ -20,7 +20,7 @@ body {
 }
 
 .banner {
-	background-image:url('https://scontent-lax.xx.fbcdn.net/hphotos-xpf1/t31.0-8/10497923_880493148632070_614835161021588350_o.jpg');
+	background-image:url('http://i60.tinypic.com/23jwwh.jpg');
 	height: 500px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -29,7 +29,8 @@ body {
 
 .banner .container {
 	position: relative;
-	top: 200px;
+	top: 250px;
+	left: 50px;
 }
 
 .banner h1 {
