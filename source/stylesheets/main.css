@@ -1,9 +1,13 @@
+/*div, span {
+	border: 1px solid black;
+}*/
+
 body {
     font-family: 'Quicksand', sans-serif; font-weight: 300;
 }
 
 .nav {
-	background-color: #6BA368;
+	background-color: #677E52;
 	padding: 15px 10px 5px 0;
 }
 
@@ -47,7 +51,7 @@ body {
 }
 
 .about-me {
-	background-color: #6BA368;
+	background-color: #677E52;
 	padding: 45px 0px 40px 0px;
 /*	border-bottom: 1px solid #dbdbdb;*/
 }
@@ -73,7 +77,7 @@ body {
 }
 
 .skills {
-	background-color: #91A3B0;
+	background-color: #ABC8E2;
 	border-bottom: 1px solid #dbdbdb;
 	text-align: center;
 	padding: 35px 0px 30px 0px;
@@ -98,7 +102,7 @@ body {
 }
 
 .social-media {
-	background-color: #91A3B0;
+	background-color: #ABC8E2;
 	text-align: center;
 	font-size: 18px;
 	color: #fff;
