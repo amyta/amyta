@@ -4,7 +4,7 @@ body {
 
 .nav {
 	background-color: #6BA368;
-	padding-top: 10px;
+	padding: 15px 0 5px 0;
 }
 
 .nav a {
@@ -48,7 +48,7 @@ body {
 
 .about-me {
 	background-color: #6BA368;
-	padding: 20px 0px 20px 0px;
+	padding: 45px 0px 40px 0px;
 /*	border-bottom: 1px solid #dbdbdb;*/
 }
 
@@ -68,12 +68,17 @@ body {
 	text-align: left;
 }
 
+.skills h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
 .skills {
 	background-color: #91A3B0;
 	border-bottom: 1px solid #dbdbdb;
 	text-align: center;
-	padding: 20px 0px 20px 0;
+	padding: 35px 0px 30px 0px;
 	color: #fff;
+	text-transform: uppercase;
 }
 
 .portfolio {
@@ -83,7 +88,7 @@ body {
 }
 
 .portfolio h2 {
-	padding-bottom: 20px;
+	padding: 20px 0 30px 0;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
 }
@@ -97,7 +102,7 @@ body {
 	text-align: center;
 	font-size: 18px;
 	color: #fff;
-	padding: 15px 0px 0px 0px;
+	padding: 25px 0px 20px 0px;
 
 }
 
