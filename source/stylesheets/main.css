@@ -1,5 +1,9 @@
-div, span {
+/*div, span {
 	border: 1px solid black;
+}
+*/
+ul {
+	-webkit-padding-start: 0;
 }
 
 body {
