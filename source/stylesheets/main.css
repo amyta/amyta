@@ -1,15 +1,10 @@
-/*div, span {
-	border: 1px solid black;
-}
-*/
-
 body {
     font-family: 'Quicksand', sans-serif; font-weight: 300;
 }
 
 .nav {
 	background-color: #677E52;
-	padding: 15px 10px 5px 0;
+	padding: 15px 10px 5px 10px;
 }
 
 .nav a {
@@ -25,7 +20,7 @@ body {
 }
 
 .banner {
-	background-image:url('http://i60.tinypic.com/23jwwh.jpg');
+	background-image:url('http://i59.tinypic.com/ev9yww.jpg');
 	height: 500px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -43,7 +38,6 @@ body {
 	font-family: 'Oswald', sans-serif;
 	text-shadow: 2px 3px 3px #292929;
 	left: 200px;
-	padding: 0 0 0 5px;
 		/*-webkit-text-stroke: 1px white;*/
 }
 
