@@ -74,16 +74,16 @@ body {
 
 .skills {
 /*	background-color: #ABC8E2;*/
-	background-color: #879E72;
+	background-color: #ABBE9B;
 	border-bottom: 1px solid #dbdbdb;
 	text-align: center;
 	padding: 55px 0px 50px 0px;
-	color: #000;
+	color: #fff;
 	text-transform: uppercase;
 }
 
 .portfolio {
-	background-color: #DADBDA;
+	background-color: #fff;
 	border-bottom: 1px solid #dbdbdb;
 	text-align: center;
 	padding-bottom: 50px;
