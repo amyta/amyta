@@ -7,12 +7,12 @@
         %li
         %a{:href => "#portfolio"} Portfolio
         %li
-        %a{:href => "http://bit.ly/nt-resume", :target => "_blank"} Resume
+        %a{:href => "http://bit.ly/ntresume", :target => "_blank"} Resume
 .banner
   .container
     .row
-      .col-xs-6.col-xs-offset-6.col-sm-4.col-sm-offset-8
-        %h1 Hello, my name is Amy.
+      .col-xs-6.col-xs-offset-4
+        %h1 Ordinary is awefully boring.
 .about-me
   .container
     .row
@@ -47,43 +47,40 @@
     .row
       .col-md-4
         .thumbnail
-          %img{:src => "http://i60.tinypic.com/148fzf5.jpg"}/
+          %img{:src => "images/bsc15.png"}/
         .thumbnail
-          %img{:src => "http://i60.tinypic.com/xcori1.jpg"}/
+          = link_to image_tag('images/r2mh.png'), 'http://www.r2mediahub.com'
       .col-md-4
         .thumbnail
-          = link_to image_tag('http://i61.tinypic.com/33o2xax.jpg'), 'http://www.facebook.com/hackpoly'
+          = link_to image_tag('images/hackpoly.png'), 'http://www.facebook.com/hackpoly'
         .thumbnail
-          %img{:src => "http://i59.tinypic.com/kdvk8j.png"}/
+          %img{:src => "images/ldv.png"}/
         .thumbnail
-          %img{:src => "http://i61.tinypic.com/2rek23c.png"}/
+          %img{:src => "images/buildings.png"}/
       .col-md-4
         .thumbnail
-          %img{:src => "http://i60.tinypic.com/xdt3m1.jpg"}/
+          %img{:src => "images/osp.png"}/
         .thumbnail
-          %img{:src => "http://i59.tinypic.com/2en1011.jpg"}/
-        .thumbnail
-          = link_to image_tag('http://i61.tinypic.com/2z6xnxi.jpg'), 'http://www.r2mediahub.com'
+          %img{:src => "images/crg.png"}/
         / .thumbnail
+        /   %img{:src => "images/nchc15.png"}/
         /   %img{:src => "http://i57.tinypic.com/2nc2ihw.jpg"}/
 .social-media
   .container
     %ul
-      %li I'm social:
+      %li I'm a social animal:
       %li
-        %a{:href => "http://www.facebook.com/amythuta", :target => "_blank"} f
+        %a{:href => "http://linkedin.com/in/nguyetta", :target => "_blank"} in      
       %li
         %a{:href => "http://twitter.com/amythuta", :target => "_blank"} t
       %li
         %a{:href => "http://instagram.com/amythuta", :target => "_blank"} ig
       %li
         %a{:href => "http://github.com/amyta", :target => "_blank"} git
-      %li
-        %a{:href => "http://linkedin.com/in/nguyetta", :target => "_blank"} in
 .footer
   .container
     %p
-      %a{:href => "mailto:amythuta@gmail.com", :target => "_blank"} System.out.println("Hey! Let's chat over coffee.");
+      %a{:href => "mailto:yo@amythuta.com", :target => "_blank"} System.out.println("Hey! Let's chat over coffee.");
 %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
 %script{:src => "app.js"}
 :javascript
