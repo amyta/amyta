@@ -1,4 +1,4 @@
-.nav
+.nav.cust-pad
   .container
     .row
       %ul.pull-left
@@ -7,41 +7,59 @@
         %li
         %a{:href => "#portfolio"} Portfolio
         %li
-        %a{:href => "http://bit.ly/1Fch6gD", :target => "_blank"} Resume
+        %a{:href => "http://bit.ly/1Q3J6tc", :target => "_blank"} Resume
         / %li
         / %a{:href => "/blog", :target => "_blank"} Blog
 .banner
   .container
     .row
       .col-xs-6.col-xs-offset-4
-        %h1 Ordinary is awfully boring.
-.about-me
+        %h1 Welcome to my world.
+.about-me.text-center
   .container
     .row
-      .col-md-6
-        %p
+      .col-md-4
+        %img{:src => "images/balloon.png"}/
+      .col-md-8.text
         %h2 I market / design / build awesome things.
-      .col-md-6
         %p A self starting person who enjoys learning new things and tackling new challenges; Technology, marketing, programming and all things with a dash of crazy is my cup of tea. 
-
-        %p I'm always interested in learning new things and taking on challenges.
-.skills
+        %br/
+        I'm always interested in learning new things and taking on challenges.
+.skills.text-center.cust-pad
   .container
-    .col-md-4
-      %p 
-        %h3 Marketing
-        social media marketing | creative marketing campaigns
-    .col-md-4
-      %p 
-        %h3 Design
-        Adobe Illustrator | Photoshop | Lightroom
-    .col-md-4
-      %p 
-        %h3 Technical
-        Java | Ruby on Rails | HTML | CSS
+    .row
+      .col-md-4
+        %p 
+          %h3 MARKETING
+        %ul
+          %li Facebook Ads Manager
+          %li Hootsuite
+          %li Sprout Social
+          %li MailChimp
+          %li Google Analytics
+          %li Heat maps tracking
+      .col-md-4
+        %p 
+          %h3 DESIGN
+        %ul
+          %li Adobe Illustrator
+          %li Photoshop
+          %li InDesign
+          %li Lightroom
+      .col-md-4
+        %p 
+          %h3 TECHNICAL
+        %ul 
+          %li HTML
+          %li CSS
+          %li Java
+          %li Ruby on Rails
+      .col-sm-12
+        .row
+          %img{:src => "images/clouds.png"}/
 
 %a{:name => "portfolio"}
-.portfolio
+.portfolio.text-center.cust-pad
   .container
     %h2 Work / Projects
     .row
@@ -65,22 +83,30 @@
         / .thumbnail
         /   %img{:src => "images/nchc15.png"}/
         /   %img{:src => "http://i57.tinypic.com/2nc2ihw.jpg"}/
-.social-media
+.social-media.text-center.cust-pad
   .container
-    %ul
-      %li I'm a social animal:
-      %li
-        %a{:href => "http://linkedin.com/in/nguyetta", :target => "_blank"} in      
-      %li
-        %a{:href => "http://twitter.com/amythuta", :target => "_blank"} t
-      %li
-        %a{:href => "http://instagram.com/amythuta", :target => "_blank"} ig
-      %li
-        %a{:href => "http://github.com/amyta", :target => "_blank"} git
-.footer
+    .row
+      %ul
+        %li I'm a social animal:
+        %li
+          %a{:href => "http://linkedin.com/in/nguyetta", :target => "_blank"} in      
+        %li
+          %a{:href => "http://twitter.com/amythuta", :target => "_blank"} t
+        %li
+          %a{:href => "http://instagram.com/amythuta", :target => "_blank"} ig
+        %li
+          %a{:href => "http://github.com/amyta", :target => "_blank"} git
+      %img{:src => "images/me.png"}/
+
+.mountains
   .container
-    %p
-      %a{:href => "mailto:yo@amythuta.com", :target => "_blank"} System.out.println("Hey! Let's chat over coffee.");
+    .col-xs-12
+.footer.cust-pad
+  .container
+    .col-md-6.col-md-offset-3.text-center
+      .row
+        %p
+        %a{:href => "mailto:yo@amythuta.com", :target => "_blank"} System.out.println("Hey! Let's chat over coffee.");
 %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
 %script{:src => "app.js"}
 :javascript
