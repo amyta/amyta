@@ -1,42 +1,43 @@
 body {
-    font-family: 'Quicksand', sans-serif; font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
 }
 
 .cust-pad {
-	padding: 30px 15px 30px 15px;
+	padding: 3em 2em 3em 2em;
 }
 
-.nav {
-	background-color: #677E52;
+.navbar {
+	background-color: rgba(241, 240, 238, 0.8);
+	padding: 2em 1em 2em 1em;
 }
 
-.nav a {
-	color: #fff;
-	font-size: 14px;
-	font-weight: bold;
+.navbar a {
+	color: #000;
+	font-size: 16px;
 	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
+	padding-left: 10px;
 }
 
-.nav li {
+.navbar li {
  	display: inline;
 }
 
 .banner {
 	background-image:url('http://i59.tinypic.com/ev9yww.jpg');
-	height: 500px;
+	height: 600px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	color: #fff;
 }
 
 .banner .container {
 	position: relative;
-	top: 175px;
+	top: 250px;
 }
 
 .banner h1 {
-	color: #fff;
 	font-size: 36px;  
 	font-family: 'Oswald', sans-serif;
 	text-shadow: 2px 3px 3px #292929;
@@ -46,24 +47,18 @@ body {
 
 .banner p {
 	font-size: 20px;
-	color: #fff;
 }
 
 .about-me {
-	background-color: #677E52;
+	font-size: 16px;
+	border-bottom: 1px gray solid;
+	background-color: rgba(241, 240, 238, 1);
 }
 
 .about-me h2 {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
-}
-
-.about-me .container {
-	color: #fff;
-}
-
-.about-me .text {
-	font-size: 16px;
+	padding-bottom: 1em;
 }
 
 .skills h3 {
@@ -71,8 +66,10 @@ body {
 }
 
 .skills {
-	color: #fff;
-	background-color: #ABBE9B;
+	color: rgba(241, 240, 238, 1);
+	font-size: 16px;
+	border-bottom: 1px gray solid;
+	background-color: rgba(19, 82, 162, 1);
 }
 
 .skills img {
@@ -89,10 +86,13 @@ body {
 	display: inherit;
 }
 
+.portfolio {
+	/*background-color: #d3d3d3;*/
+}
+
 .portfolio h2 {
-	padding: 0 0 30px 0;
+	padding: 0 0 1em 0;
 	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
 	color: #000;
 }
 
@@ -102,12 +102,13 @@ body {
 
 .social-media {
 	font-size: 18px;
-	color: white;
-	background-color: #ABC8E2;
+	color: #000;
+	background-color: rgba(241, 240, 238, 1);
+	/*border-top: 1px gray solid;*/
 }
 
 .social-media a{
-	color: #677E52;
+	/*color: #677E52;*/
 }
 
 .social-media li {
@@ -116,12 +117,13 @@ body {
 }
 
 .footer {
-	background-color: #677E52;
+	background-color: #212121;
 	background-position: bottom;
+	border-top: 1px solid gray;
 }
 
 .footer a {
 	text-decoration: none;
-	color: #fff;
+	color: gray;
 	font-size: 18px;
 }
