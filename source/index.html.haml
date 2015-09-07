@@ -56,25 +56,31 @@
 %a{:name => "portfolio"}
 .portfolio.text-center.cust-pad
   .container
-    %h2 Work / Projects
+    %h1 Portfolio / Work
     .row
-      .col-md-4
-        .thumbnail
-          %img{:src => "images/bsc15.png"}/
-        .thumbnail
-          %img{:src => "images/ldv.png"}/
-      .col-md-4
-        .thumbnail
-          %img{:src => "images/osp.png"}/
-        .thumbnail
-          %img{:src => "images/crg.png"}/
-      .col-md-4
-        .thumbnail
-          = link_to image_tag('images/r2mh.png'), 'http://www.r2mediahub.com'
-        .thumbnail
-          = link_to image_tag('images/employd.png'), 'http://www.employd.co'
-        .thumbnail
-          = link_to image_tag('images/hackpoly.png'), 'http://www.facebook.com/hackpoly'
+      %ul#filter-list.clearfix
+        %li.filter{"data-filter" => "all"} All
+        %li.filter{"data-filter" => "webdesign"} Web Design
+        %li.filter{"data-filter" => "illustration"} Illustration
+        %li.filter{"data-filter" => "socialmedia"} Social Media
+      %ul#portfolio
+        %li.item.illustration
+          %img{:alt => "bronco startup challenge design", :src => "images/bsc15.png"}/
+        %li.item.illustration
+          %img{:alt => "CRG Sports campaign", :src => "images/crg.png"}/
+        %li.item.socialmedia
+          %a{:href => "http://www.facebook.com/hackpoly"}
+            %img{:alt => "hackpoly socialmedia", :src => "images/hackpoly.png"}/
+        %li.item.illustration
+          %img{:alt => "la dolve vita design", :src => "images/ldv.png"}/
+        %li.item.illustration
+          %img{:alt => "Outer space park logo", :src => "images/osp.png"}/
+        %li.item.webdesign
+          %a{:href => "http://www.r2mediahub.com"}
+            %img{:alt => "r2 media hub website design", :src => "images/r2mh.png"}/
+        %li.item.webdesign
+          %a{:href => "http://employd.co"}
+            %img{:alt => "employd website design", :src => "images/employd.png"}/
 
 .social-media.text-center.cust-pad
   .container
@@ -90,42 +96,13 @@
         %li
           %a{:href => "http://github.com/amyta", :target => "_blank"} git
 
-
-%h1 Portfolio / Work
-%ul#filter-list.clearfix
-  %li.filter{"data-filter" => "all"} All
-  %li.filter{"data-filter" => "webdesign"} Web Design
-  %li.filter{"data-filter" => "illustration"} Illustration
-/ @end #filter-list
-%ul#portfolio
-  %li.item.webdesign
-    %a{:href => "http://dribbble.com/shots/1332972-projekt-x-main-site"}
-      %img{:alt => "wordpress theme", :src => "images/wordpress-theme-design.jpg"}/
-  %li.item.illustration
-    %a{:href => "http://dribbble.com/shots/1339026-Able-and-Baker"}
-      %img{:alt => "able baker space floating monkeys", :src => "images/monkeys-in-space.jpg"}/
-  %li.item.illustration
-    %a{:href => "http://dribbble.com/shots/1338582-Bold-As-Love"}
-      %img{:alt => "jimi hendrix illustration design", :src => "images/jimi-hendrix-dribbble.jpg"}/
-  %li.item.webdesign
-    %a{:href => "http://dribbble.com/shots/1338364-e-commerce-13"}
-      %img{:alt => "e-commerce design", :src => "images/ecommerce-website-dribbble.jpg"}/
-:javascript
-  $(function(){
-    $('#portfolio').mixitup({
-      targetSelector: '.item',
-      transitionSpeed: 450
-    });
-  });
-
 .footer.cust-pad
   .container
     .col-md-6.col-md-offset-3.text-center
       .row
         %p
         %a{:href => "mailto:yo@amythuta.com", :target => "_blank"} System.out.println("Hey! Let's chat over coffee.");
-%script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
-/ %script{:src => "app.js"}
+
 :javascript
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -134,3 +111,11 @@
 
   ga('create', 'UA-56771699-1', 'auto');
   ga('send', 'pageview');
+
+:javascript
+  $(function(){
+    $('#portfolio').mixitup({
+      targetSelector: '.item',
+      transitionSpeed: 450
+    });
+  });
