@@ -75,9 +75,7 @@
           = link_to image_tag('images/employd.png'), 'http://www.employd.co'
         .thumbnail
           = link_to image_tag('images/hackpoly.png'), 'http://www.facebook.com/hackpoly'
-        / .thumbnail
-        /   %img{:src => "images/nchc15.png"}/
-        /   %img{:src => "http://i57.tinypic.com/2nc2ihw.jpg"}/
+
 .social-media.text-center.cust-pad
   .container
     .row
@@ -92,6 +90,34 @@
         %li
           %a{:href => "http://github.com/amyta", :target => "_blank"} git
 
+
+%h1 Portfolio / Work
+%ul#filter-list.clearfix
+  %li.filter{"data-filter" => "all"} All
+  %li.filter{"data-filter" => "webdesign"} Web Design
+  %li.filter{"data-filter" => "illustration"} Illustration
+/ @end #filter-list
+%ul#portfolio
+  %li.item.webdesign
+    %a{:href => "http://dribbble.com/shots/1332972-projekt-x-main-site"}
+      %img{:alt => "wordpress theme", :src => "images/wordpress-theme-design.jpg"}/
+  %li.item.illustration
+    %a{:href => "http://dribbble.com/shots/1339026-Able-and-Baker"}
+      %img{:alt => "able baker space floating monkeys", :src => "images/monkeys-in-space.jpg"}/
+  %li.item.illustration
+    %a{:href => "http://dribbble.com/shots/1338582-Bold-As-Love"}
+      %img{:alt => "jimi hendrix illustration design", :src => "images/jimi-hendrix-dribbble.jpg"}/
+  %li.item.webdesign
+    %a{:href => "http://dribbble.com/shots/1338364-e-commerce-13"}
+      %img{:alt => "e-commerce design", :src => "images/ecommerce-website-dribbble.jpg"}/
+:javascript
+  $(function(){
+    $('#portfolio').mixitup({
+      targetSelector: '.item',
+      transitionSpeed: 450
+    });
+  });
+
 .footer.cust-pad
   .container
     .col-md-6.col-md-offset-3.text-center
@@ -99,7 +125,7 @@
         %p
         %a{:href => "mailto:yo@amythuta.com", :target => "_blank"} System.out.println("Hey! Let's chat over coffee.");
 %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
-%script{:src => "app.js"}
+/ %script{:src => "app.js"}
 :javascript
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
